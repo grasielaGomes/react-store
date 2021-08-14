@@ -35,7 +35,7 @@ class SignIn extends React.Component {
             type='email'
             name='email'
             value={this.state.email}
-            label='email'
+            label='Email'
             required
             />
           <FormInput
@@ -43,7 +43,7 @@ class SignIn extends React.Component {
             type='password'
             name='password'
             value={this.state.password}
-            label='password'
+            label='Password'
             required
             />
           <div className="buttons">
