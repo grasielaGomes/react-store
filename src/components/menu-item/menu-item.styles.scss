@@ -1,14 +1,15 @@
 
 .menu-item {
   min-width: 30%;
-  height: 240px;
+  height: 30vh;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  margin: 0 7.5px 15px;
   overflow: hidden;
+  background-color: rgb(17, 4, 33);
+  margin: 0 .3rem .3rem 0;
+  border-radius: .5rem;
 
   &:hover {
   cursor: pointer;
@@ -24,15 +25,7 @@
   }
 
   &.large {
-    height: 380px;
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
+    height: 50vh;
   }
 
   .background-image {
@@ -40,29 +33,28 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    opacity: .5;
   }
 
   .content {
-    height: 90px;
-    padding: 0 25px;
+    padding: 3rem 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.825);
     position: absolute;
 
     .title {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
-      color: #4a4a4a;
+      color: #fbf7f7;
     }
 
     .subtitle {
       font-weight: lighter;
       font-size: 16px;
+      color: #fbf7f7;
     }
   }
 }

@@ -1,7 +1,7 @@
 const SECTION_DATA = [
   {
     title: 'hats',
-    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+    imageUrl: '../../assets/collection-images/1.jpg',
     id: 1,
     linkUrl: 'shop/hats'
   },
