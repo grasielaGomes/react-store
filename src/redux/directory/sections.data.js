@@ -1,35 +1,35 @@
 const SECTION_DATA = [
   {
     title: 'hats',
-    imageUrl: '../../assets/collection-images/1.jpg',
+    imageUrl: 'https://github.com/grasielaGomes/react-store/blob/main/src/assets/collection-images/3.jpg?raw=true',
     id: 1,
     linkUrl: 'shop/hats'
   },
   {
     title: 'jackets',
-    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+    imageUrl: 'https://github.com/grasielaGomes/react-store/blob/main/src/assets/collection-images/5.jpg?raw=true',
     id: 2,
     linkUrl: 'shop/jackets'
   },
   {
     title: 'sneakers',
-    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+    imageUrl: 'https://github.com/grasielaGomes/react-store/blob/main/src/assets/collection-images/4.jpg?raw=true',
     id: 3,
     linkUrl: 'shop/sneakers'
   },
   {
-    title: 'women',
-    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+    title: 'blouses',
+    imageUrl: 'https://github.com/grasielaGomes/react-store/blob/main/src/assets/collection-images/2.jpg?raw=true',
     size: 'large',
     id: 4,
-    linkUrl: 'shop/women'
+    linkUrl: 'shop/blouses'
   },
   {
-    title: 'men',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    title: 'shirts',
+    imageUrl: 'https://github.com/grasielaGomes/react-store/blob/main/src/assets/collection-images/1.jpg?raw=true',
     size: 'large',
     id: 5,
-    linkUrl: 'shop/men'
+    linkUrl: 'shop/shirts'
   }
 ]
 
