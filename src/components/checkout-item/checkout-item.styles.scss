@@ -24,9 +24,11 @@
 
   .quantity {
     display: flex;
-    gap: 1rem;
     .arrow {
       cursor: pointer;
+    }
+    .value {
+      margin: 0 10px;
     }
   }
 
